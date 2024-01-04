@@ -3,5 +3,5 @@ engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
-engine.say("I will speak this text")
+engine.say("Anurag install pyAudio soon dude.... we  gotta start our project")
 engine.runAndWait()
